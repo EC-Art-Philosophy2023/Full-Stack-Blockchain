@@ -45,7 +45,10 @@
     "dev-client": {
       "name": "dev-client",
       "command": "npm run dev-client",
-      "runAtStart": false
+      "runAtStart": false,
+      "preview": {
+        "port": 1234
+      }
     },
     "clean": {
       "name": "clean",
